@@ -1,0 +1,43 @@
+# Header
+menu:
+  Home: /
+  Archives: /archives
+rss: /atom.xml
+
+# Content
+excerpt_link: Read More
+fancybox: true
+
+# Sidebar
+sidebar: right
+widgets:
+- category
+- tag
+- tagcloud
+- archive
+- recent_posts
+
+algolia:
+  applicationID: 'XJ4815NIT1'
+  apiKey: '2837b8de52474920dc833d4b0445aa1f'
+  adminApiKey: '6dccc58ad216faadebd72268a699fc3c'
+  indexName: 'HEXO'
+  chunkSize: 5000
+
+# display widgets at the bottom of index pages (pagination == 2)
+index_widgets:
+# - category
+# - tagcloud
+# - archive
+
+# widget behavior
+archive_type: 'monthly'
+show_count: false
+
+# Miscellaneous
+google_analytics:
+favicon: /favicon.png
+twitter:
+google_plus:
+fb_admins:
+fb_app_id:
